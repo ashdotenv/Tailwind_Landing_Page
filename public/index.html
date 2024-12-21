@@ -38,9 +38,47 @@
     <!-- Header End -->
 
     <!-- Hero -->
-    <section class="relative">
+    <section class="relative overflow">
       <div
         class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28"
+      >
+        <!-- Content -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h2
+            class="mb-6 text-center lg:text-left text-bookmark-blue text-3xl md:text-4xl lg:text-5xl"
+          >
+            A Simple Bookmark Manager
+          </h2>
+          <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+            omnis odio! Atque, illum repellat? Corrupti accusantium fugit non
+            alias error.
+          </p>
+          <div class="flex-wrap flex justify-center gap-6">
+            <button
+              class="hover:bg-bookmark-white hover:text-black btn btn-purple"
+            >
+              Get It On Chrome
+            </button>
+            <button
+              class="hover:bg-bookmark-purple hover:text-white btn btn-white"
+            >
+              Get It on Firefox
+            </button>
+          </div>
+        </div>
+        <!-- Image -->
+        <div class="z-10 flex mb-10 md:mb-16 lg:mb-0 justify-center flex-1">
+          <img
+            class="h-5/6 w-5/6 sm:w-3/4 sm:h-3/4 md:h-full md:w-full"
+            src="./imgs/hero-bg.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- Rounded Rectangle -->
+      <div
+        class="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 lg:-bottom-28 lg:-right-36"
       ></div>
     </section>
   </body>
